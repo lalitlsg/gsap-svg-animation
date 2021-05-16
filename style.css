@@ -1,0 +1,38 @@
+#pay{
+    stroke-dasharray: 492;
+    stroke-dashoffset: 492;
+    animation: pay-anim 7s ease  forwards;
+}
+
+#money{
+    stroke-dasharray: 843;
+    stroke-dashoffset: 843;
+    animation: pay-anim 7s ease  forwards;
+}
+
+#tm{
+    stroke-dasharray: 352;
+    stroke-dashoffset: 352;
+    animation: tm-anim 7s ease  forwards;
+
+}
+
+@keyframes pay-anim {
+    from{
+        fill: transparent;
+    }
+    to{
+        stroke-dashoffset: 0;
+        fill: #042A68;
+    }
+}
+
+@keyframes tm-anim {
+    from{
+        fill: transparent;
+    }
+    to{
+        stroke-dashoffset: 0;
+        fill: #54AFEC;
+    }
+}
